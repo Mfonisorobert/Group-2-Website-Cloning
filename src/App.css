@@ -1,0 +1,13 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.header__container{
+  background-color: white;
+  color: rgb(37, 36, 36);
+  width: 100vw;
+  height: 100vh;
+
+}

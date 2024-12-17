@@ -1,0 +1,490 @@
+.services{
+    width: 100vw;
+    padding: 50px 0px;
+    background-color: #e6e6e6;
+    height: 290vh;
+}
+.services__info{
+    width: 42%;
+    margin: 20px auto;
+    color: #656565;
+    font-family: Arial, Helvetica, sans-serif;
+    place-items: center;
+}
+.services__info h1{
+    color: #000000;
+    font-size: 32px;
+    margin: 15px;
+}
+.services__info span{
+    color: #ff5900;
+    font-size: 17px;
+    font-weight: 200;
+    margin-left: 0px auto;
+}
+.services__info p{
+    display: flex;
+    text-align: center;
+    line-height: 1.8;
+    font-size: 17px;
+}
+.services__line{
+    position: relative;
+        
+}
+.services__line::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateX(-150%);
+    width: 30px; /* Length of the line */
+    height: 2px; /* Thickness of the line */
+    background-color: rgb(255, 68, 0); /* Line color */
+    margin-left: 0px;
+}
+.services__line::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateX(50%);
+    width: 30px; /* Length of the line */
+    height: 2px; /* Thickness of the line */
+    background-color: rgb(255, 68, 0); /* Line color */
+}
+.square__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 squares per row */
+    gap: 30px; /* Space between squares */
+    justify-items: center; /* Centers squares horizontally */
+    align-items: center; /* Centers squares vertically */
+    padding: 15px;
+    margin-left: 0px;
+    margin-top: 55px;
+}
+.square1 {
+    width: 360px; 
+    height: 280px;
+    justify-items: center; /*Centers the icon horizontally*/
+    align-content: center;
+    background-color: #ffffff;
+    color: white;
+    font-size: 20px;
+    border-radius: none; /* Optional: round edges */
+    box-shadow: 1px 1px 26px 10px rgba(0, 0, 0, 0.1); /*Optional: shadow effect */
+    transition: transform 0.5s ease, box-shadow 0.5s ease, background-color 0.5s ease;
+}
+.square1 h3{
+    color: rgb(0, 0, 0);
+    font-family: calibri;
+}
+.square1 h5{
+    color: #656565;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-align: center;
+    line-height: 1.8;
+    font-weight: 200;
+    padding: 0px 50px;
+}
+.square1:hover {
+    transform: translateY(-10px); /* Moves the square upward */
+    transition: transform 0.5s ease-in-out;
+    box-shadow: 1px 1px 26px 10px rgba(255, 0, 0, 0.146);
+    
+}
+.square2 {
+    width: 360px; 
+    height: 280px;
+    justify-items: center; /*Centers the icon horizontally*/
+    align-content: center;
+    background-color: #ffffff;
+    color: white;
+    font-size: 20px;
+    border-radius: none; /* Optional: round edges */
+    box-shadow: 1px 1px 26px 10px rgba(0, 0, 0, 0.1); /*Optional: shadow effect */
+    transition: transform 0.5s ease, box-shadow 0.5s ease, background-color 0.5s ease;
+}
+.square2:hover {
+    transform: translateY(-10px); /* Moves the square upward */
+    transition: transform 0.5s ease-in-out;
+    box-shadow: 1px 1px 26px 10px rgba(255, 0, 0, 0.146);
+}
+.square2 h3{
+    color: rgb(0, 0, 0);
+    font-family: calibri;
+}
+.square2 h5{
+    color: #656565;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-align: center;
+    line-height: 1.8;
+    font-weight: 200;
+    padding: 0px 50px;
+}
+.square3 {
+    width: 360px; 
+    height: 280px;
+    justify-items: center; /*Centers the icon horizontally*/
+    align-content: center;
+    background-color: #ffffff;
+    color: white;
+    font-size: 20px;
+    border-radius: none; /* Optional: round edges */
+    box-shadow: 1px 1px 26px 10px rgba(0, 0, 0, 0.1); /*Optional: shadow effect */
+    transition: transform 0.5s ease, box-shadow 0.5s ease, background-color 0.5s ease;
+}
+.square3:hover {
+        transform: translateY(-10px); /* Moves the square upward */
+        transition: transform 0.5s ease-in-out;
+        box-shadow: 1px 1px 26px 10px rgba(255, 0, 0, 0.146);
+}
+.square3 h3{
+    color: rgb(0, 0, 0);
+    font-family: calibri;
+}
+.square3 h5{
+    color: #656565;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-align: center;
+    line-height: 1.8;
+    font-weight: 200;
+    padding: 0px 50px;
+}
+.square4 {
+    width: 360px; 
+    height: 280px;
+    justify-items: center; /*Centers the icon horizontally*/
+    align-content: center;
+    background-color: #ffffff;
+    color: white;
+    font-size: 20px;
+    border-radius: none; /* Optional: round edges */
+    box-shadow: 1px 1px 26px 10px rgba(0, 0, 0, 0.1); /*Optional: shadow effect */
+    transition: transform 0.5s ease, box-shadow 0.5s ease, background-color 0.5s ease;
+}
+.square4:hover {
+    transform: translateY(-10px); /* Moves the square upward */
+    transition: transform 0.5s ease-in-out;
+    box-shadow: 1px 1px 26px 10px rgba(255, 0, 0, 0.146);
+}
+.square4 h3{
+    color: rgb(0, 0, 0);
+    font-family: calibri;
+}
+.square4 h5{
+    color: #656565;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-align: center;
+    line-height: 1.8;
+    font-weight: 200;
+    padding: 0px 50px;
+}
+.square5 {
+    width: 360px; 
+    height: 280px;
+    justify-items: center; /*Centers the icon horizontally*/
+    align-content: center;
+    background-color: #ffffff;
+    color: white;
+    font-size: 20px;
+    border-radius: none; /* Optional: round edges */
+    box-shadow: 1px 1px 26px 10px rgba(0, 0, 0, 0.1); /*Optional: shadow effect */
+    transition: transform 0.5s ease, box-shadow 0.5s ease, background-color 0.5s ease;
+}
+.square5:hover {
+    transform: translateY(-10px); /* Moves the square upward */
+    transition: transform 0.5s ease-in-out;
+    box-shadow: 1px 1px 26px 10px rgba(255, 0, 0, 0.146);
+}
+.square5 h3{
+    color: rgb(0, 0, 0);
+    font-family: calibri;
+}
+.square5 h5{
+    color: #656565;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-align: center;
+    line-height: 1.8;
+    font-weight: 200;
+    padding: 0px 50px;
+}
+.square6 {
+    width: 360px; 
+    height: 280px;
+    justify-items: center; /*Centers the icon horizontally*/
+    align-content: center;
+    background-color: #ffffff;
+    color: white;
+    font-size: 20px;
+    border-radius: none; /* Optional: round edges */
+    box-shadow: 1px 1px 26px 10px rgba(0, 0, 0, 0.1); /*Optional: shadow effect */
+    transition: transform 0.5s ease, box-shadow 0.5s ease, background-color 0.5s ease;
+}
+.square6:hover {
+    transform: translateY(-10px); /* Moves the square upward */
+    transition: transform 0.5s ease-in-out;
+    box-shadow: 1px 1px 26px 10px rgba(255, 0, 0, 0.146);
+}
+.square6 h3{
+    color: rgb(0, 0, 0);
+    font-family: calibri;
+}
+.square6 h5{
+    color: #656565;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-align: center;
+    line-height: 1.8;
+    font-weight: 200;
+    padding: 0px 50px;
+}
+.btn6 {
+    margin: 50px 500px;
+    padding: 15px 40px;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    background-color: #ff5900;
+    color: white;
+    transition: background-color 0.3s ease;
+    border-radius: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn6:hover{
+    background-color: #001841;
+}
+
+/* This is the second section of the Services */
+.services2{
+    padding: 50px ;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: #221F3C;
+    height: 130vh;
+    margin-top: 65px;  
+    position: relative;
+    
+}
+.services2::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 55%; /* Green for the bottom half */
+    background: rgb(255, 255, 255);
+   
+  
+}
+.services2__info{
+    width: 40%;
+    margin: 20px auto;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    place-items: center;
+    
+    
+}
+.services2__info h1{
+    color: #ffffff;
+    font-size: 32px;
+    margin: 15px;
+}
+.services2__info span{
+    color: #ff5900;
+    font-size: 17px;
+    font-weight: 200;
+}
+.services2__info p{
+    display: flex;
+    text-align: center;
+    line-height: 1.8;
+    font-size: 17px;
+}
+.services2__line{
+    position: relative;
+    padding-left: 60px;
+}
+
+
+/* Grid container for images and captions */
+.image__container {
+    display: flex; /* Places images side by side */
+    justify-content: center; /* Centers the grid */
+    gap: 40px; /* Space between images */
+    margin-top: 70px;
+    margin-left: 0px;
+    position: relative;
+    
+}
+.image-card {
+    text-align: left; /* Centers the text under the image */
+    transition: transform 0.3s ease; /* Smooth scaling transition */
+    
+  
+}
+.image-card img {
+    width: 370px; /* Set image size */
+    height: 240px;
+    object-fit: cover;
+    transition: transform 0.3s ease; /* Smooth hover effect */    
+}
+
+.image-card:hover img {
+    transform: scale(1.1); /* Enlarges the image on hover */
+}
+  
+.image-grid:hover .image-card:not(:hover) img {
+    transform: scale(0.9); /* Shrinks non-hovered images */
+  
+}
+.image-card p {
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 55px;
+    font-size: 18px;
+    color: #656565;
+    
+}
+.image-card h2 {
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-left: 40px;
+    font-weight:650;
+    font-size: 22px;
+    position: relative;
+    display: inline-block; /* To allow underline effect */
+    cursor: pointer;
+}
+.image-card h2:hover{
+        color: #ff4d00;
+}    
+.image-card h2::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    margin-left: 40px;
+    background-color: #ff0000;
+    left: 0;
+    bottom: -1px; /* Adjusts distance from the text */
+    transition: width 0.3s ease; /* Smooth underline effect */
+
+}
+.image-card h2:hover::after {
+    width: 70%; /* Draws the line on hover */
+    margin-left: 40px;
+}
+.btn7 {
+    margin-left: 40px;
+    margin-top: 30px;
+    padding: 12px 24px;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    background-color: #ff5900;
+    color: white;
+    transition: background-color 0.3s ease;
+    border-radius: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn7:hover{
+    background-color: #001841;
+}
+
+.image-card h3 {
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-left: 40px;
+    font-weight:650;
+    font-size: 22px;
+    position: relative;
+    display: inline-block; /* To allow underline effect */
+    cursor: pointer;
+}
+.image-card h3:hover{
+        color: #ff4d00;
+}    
+.image-card h3::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    margin-left: 40px;
+    background-color: #ff0000;
+    left: 0;
+    bottom: -1px; /* Adjusts distance from the text */
+    transition: width 0.3s ease; /* Smooth underline effect */
+
+}
+.image-card h3:hover::after {
+    width: 85%; /* Draws the line on hover */
+    margin-left: 40px;
+}
+.btn8 {
+    margin-left: 40px;
+    margin-top: 30px;
+    padding: 12px 24px;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    background-color: #ff5900;
+    color: white;
+    transition: background-color 0.3s ease;
+    border-radius: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn8:hover{
+    background-color: #001841;
+}
+
+.image-card h4 {
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-left: 40px;
+    font-weight:650;
+    font-size: 22px;
+    position: relative;
+    display: inline-block; /* To allow underline effect */
+    cursor: pointer;
+}
+.image-card h4:hover{
+        color: #ff4d00;
+}    
+.image-card h4::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    margin-left: 40px;
+    background-color: #ff0000;
+    left: 0;
+    bottom: -1px; /* Adjusts distance from the text */
+    transition: width 0.3s ease; /* Smooth underline effect */
+
+}
+.image-card h4:hover::after {
+    width: 85%; /* Draws the line on hover */
+    margin-left: 40px;
+}
+.btn9 {
+    margin-left: 40px;
+    margin-top: 30px;
+    padding: 12px 24px;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    background-color: #ff5900;
+    color: white;
+    transition: background-color 0.3s ease;
+    border-radius: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn9:hover{
+    background-color: #001841;
+}

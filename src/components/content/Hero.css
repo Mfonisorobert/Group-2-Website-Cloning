@@ -1,0 +1,106 @@
+.hero{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(16, 4, 4);
+    background-image: url("../../assets/Exoimage.jpg");
+    background-position: cover;
+    background-repeat: none;
+    background-size: cover;
+    
+}
+
+.hero__colour{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right, rgb(13, 0, 35), rgba(129, 132, 135, 0.345));
+}
+
+.hero__text{
+    padding: 210px 80px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
+    
+}
+.hero__text h3{
+    letter-spacing: 2px;
+    font-size:20px;
+    padding-bottom: 10px;
+}
+.hero__text h4{
+    font-size:17px;
+    padding-top: 10px;
+    font-weight: 300;
+}
+.button__container {
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+}
+.btn1 {
+    padding: 15px 40px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background-color: #ff5900;
+    color: white;
+    transition: background-color 0.3s ease;
+    border-radius: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn2 {
+    padding: 15px 40px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    transition: background-color 0.3s ease;
+    border-radius: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn1:focus {
+    outline: none;
+}
+.btn2:focus {
+    outline: none;
+}
+.btn1:hover{
+    background-color: #ffffff;
+    color: #ff5900;
+}
+.btn2:hover{
+    background-color: #ff5900;
+    color: #ffffff;
+}
+.hero__support{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    background-color: rgb(34, 31, 60);
+    height: 22vh;
+    padding: 40px;
+   
+}
+.btn3 {
+    padding: 15px 40px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background-color: #ff5900;
+    color: white;
+    transition: background-color 0.3s ease;
+    border-radius: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn3:focus {
+    outline: none;
+}
+.btn3:hover{
+    background-color: #ffffff;
+    color: #ff5900;
+}

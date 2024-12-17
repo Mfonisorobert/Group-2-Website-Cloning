@@ -1,0 +1,41 @@
+.top__header{
+    width: 100vw;
+    background-color: rgb(34, 31, 60);
+    color: rgb(89, 0, 255);
+    height: 8vh;
+    display: flex;
+    justify-content: space-between; /* Space between left and right sections */
+    align-items: center;
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  /* Left Section: Contact Info */
+  .navbar-left {
+    display: flex;
+    gap: 20px; /* Space between phone and email */
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Space between icon and text */
+    font-size: 14px;
+  }
+  
+  /* Right Section: Social Media Icons */
+  .navbar-right {
+    display: flex;
+    gap: 25px; /* Space between social media icons */
+  }
+  
+  .navbar-right a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px; /* Icon size */
+    transition: color 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .navbar-right a:hover {
+    color: #00acee; /* Change color on hover (e.g., Twitter blue) */
+  }
