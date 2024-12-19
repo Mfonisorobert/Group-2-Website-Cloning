@@ -29,7 +29,10 @@ const News = () => {
         consectetur adipiscing elit. 
         Nullam porta sem eu tellus porta, ac […]
       </h3>
+      <a href="https://demo.olivethemes.com/exo/2022/08/22/professionals-team-management-ideas/" target="_blank" rel="noopener noreferrer">
       <h2>Know More <i class="fas fa-angle-right styled_icon"></i></h2>  
+      </a>
+      
       
     </div>
   </div>
@@ -43,7 +46,9 @@ const News = () => {
         consectetur adipiscing elit. 
         Nullam porta sem eu tellus porta, ac […]
         </h3>
-        <h2>Know More <i class="fas fa-angle-right styled_icon"></i></h2>
+        <a href="https://demo.olivethemes.com/exo/2022/08/22/professionals-team-management-ideas/" target="_blank" rel="noopener noreferrer">
+      <h2>Know More <i class="fas fa-angle-right styled_icon"></i></h2>  
+      </a>
 
     </div>
   </div>
@@ -57,7 +62,9 @@ const News = () => {
         consectetur adipiscing elit. 
         Nullam porta sem eu tellus porta, ac […]
       </h3>
-      <h2>Know More <i class="fas fa-angle-right styled_icon"></i></h2>
+      <a href="https://demo.olivethemes.com/exo/2022/08/22/professionals-team-management-ideas/" target="_blank" rel="noopener noreferrer">
+      <h2>Know More <i class="fas fa-angle-right styled_icon"></i></h2>  
+      </a>
       
     </div>
   </div>
