@@ -20,10 +20,10 @@ const Portfolio = () => {
             <button className="btn10">View More</button>
         </div>
         
+        
 
         <div class="imagegrid__container">
- {/* <div className='image__colour'> */}
- <div class="imagecard">
+    <div class="imagecard">
     <img src={Portimage1} alt="Image 1" />
     <div class="caption">
       <p>Agency</p>
@@ -32,12 +32,12 @@ const Portfolio = () => {
       
     </div>
   </div>
- {/* </div> */}
-  <div class="imagecard">
+   <div class="imagecard">
     <img src={Portimage2} alt="Image 2" />
     <div class="caption">
       <p>Cooperate</p>
       <span></span>
+      <h1>Advance Analysis</h1>
     </div>
   </div>
   <div class="imagecard">
@@ -45,6 +45,7 @@ const Portfolio = () => {
     <div class="caption">
       <p>Business</p>
       <span></span>
+      <h1>Marketing for Branding</h1>
     </div>
   </div>
   <div class="imagecard">
@@ -52,6 +53,7 @@ const Portfolio = () => {
     <div class="caption">
       <p>Cooperate</p>
       <span></span>
+      <h1>Strategy and Operation</h1>
     </div>
   </div>
   <div class="imagecard">
@@ -59,6 +61,7 @@ const Portfolio = () => {
     <div class="caption">
       <p>Business</p>
       <span></span>
+      <h1>Plan and Business</h1>
     </div>
   </div>
   <div class="imagecard">
@@ -66,11 +69,30 @@ const Portfolio = () => {
     <div class="caption">
       <p>Agency</p>
       <span></span>
+      <h1>Low risk and High result</h1>
     </div>
   </div>
 </div>
+<div className='portfoliobanner__container'>
+ <div className='portfolio__banner'> 
+ <h5>We Are Creative</h5>
+<h1>Consulting Services Worldwide</h1>
+<p>Our Professional Services is based upon more than 20 years of experience zin
+providing clients with management consulting assistance and…</p>
+ 
+<div className="button_container">
+      <button className="btn11">Get Started</button>
+      <button className="btn12 btn-secondary">Learn More</button>
+    </div>
 
-        </div>
+ </div>
+  
+ 
+
+</div>
+  
+</div>
+        
   )
 }
 

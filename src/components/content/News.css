@@ -1,0 +1,166 @@
+.news__container{
+    width: 100vw;
+    height: 135vh;
+    /* padding-left: 3px; */
+    background-color: white;
+}
+.news__info{
+    color: #656565;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 160px;
+    padding-top: 80px;
+    
+}
+.news__line span{
+    color: #ff5900;
+    font-size: 17px;
+    font-weight: 200;
+    margin-right:40px;
+    
+}
+.news__line{
+    position: relative;
+        
+}
+.news__line::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateX(-195%);
+    width: 123px; /* Length of the line */
+    height: 2px; /* Thickness of the line */
+    background-color: rgb(255, 68, 0); /* Line color */
+    
+}
+.news__btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    font-family: open sans;
+    font-size: 24px;
+    padding: 20px;
+   
+}
+.btn13 {
+    padding: 15px 40px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background-color: #ff5900;
+    color: white;
+    transition: background-color 0.3s ease;
+    border-radius: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn13:hover{
+    background-color:rgb(34, 31, 60);
+    color: white;
+}
+
+/* Grid layout for images */
+.grid__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 20px; /* Space between grid items */
+    padding: 20px; /* Optional padding around the grid */
+    
+  }
+
+  .image__card {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    background-color: white;
+    padding-bottom: 340px;
+    box-shadow: 1px 1px 26px 10px rgba(0, 0, 0, 0.2); /*Optional: shadow effect */
+    transition: transform 0.5s ease, box-shadow 0.5s ease, background-color 0.5s ease;
+  }
+  .image__card:hover{
+    transform: translateY(-10px); /* Moves the square upward */
+    transition: transform 0.5s ease-in-out;
+    box-shadow: 1px 1px 26px 10px rgba(255, 0, 0, 0.2);
+  }
+  .image__card img {
+    /* aspect-ratio: 2.5 / 3; Maintain a portrait ratio (e.g., 2:3) */
+    object-fit: cover; /* Ensures the image fits the portrait shape without distortion */
+    
+  }
+
+  .image_caption {
+    position: absolute;
+    bottom: 10px; /* Places the caption at the bottom */
+    left: 40px; /* Positions text and line to the bottom-left */
+    color: rgb(11, 0, 41); /* Text color */
+    margin-bottom: 40px;
+    width: 80%;
+    text-align: left;
+    
+    
+  }
+  
+  .image_caption h3 {
+    font-size: large;
+    font-weight: 400;
+    color: #656565;
+    line-height: 1.5;
+    margin-top: 25px;
+  }
+  
+  .image_caption p {
+    font-size: 16px;
+    font-weight:400;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ff5900;
+    margin-right: 70px;
+    margin-top: 10px;
+  }
+  .image_caption p:hover{
+    cursor: pointer;
+  }
+  .clock_style{
+    color: #656565;
+    margin-right: 10px;
+    font-size: 13px; /* Adjust size */
+  }
+  .image_caption h1 {
+    font-size: 20px;
+    position: relative;
+    line-height: 1.5;
+    display: inline-block; /* To allow underline effect */
+    cursor: pointer;
+    width: 300%; /* Adjust to break text into two lines */
+    font-family: Arial , 'Arial Narrow', Arial, sans-serif, Helvetica, sans-serif;
+    
+}
+.image_caption h2 {
+    margin-top: 30px;
+color: #ff5900;
+font-size:medium;
+font-family: Arial, Helvetica, sans-serif;
+cursor: pointer;
+
+}
+.styled_icon {
+    font-size: 13px; /* Adjust size */
+    margin-left: 2px; /* Add space between text and icon */
+    transition: transform 0.3s ease, color 0.3s ease; /* Smooth animation for hover */
+}
+.image_caption h1::after {
+    content: ""; /* create a line */
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #ff5900;
+    left: 0;
+    bottom: 30px; /* Adjusts distance from the text */
+    transition: width 0.5s ease; /* Smooth underline effect */
+
+}
+.image_caption h1:hover::after {
+    width: 100%; /* Draws the line on hover */
+    
+}
+.image_caption h1:hover{
+    color: #ff5900;
+}

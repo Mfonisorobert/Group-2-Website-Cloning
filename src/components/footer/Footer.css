@@ -1,0 +1,79 @@
+.footer__container{
+    height: 70%;
+    background-color: black;
+}
+
+.footer__container__grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid */
+    gap: 40px; /* Space between columns */
+    padding: 25px;
+    color: white; /* Text color */
+    padding-top: 85px;
+    
+    
+  }
+  
+  /* Headings */
+  .footer__header h3 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-bottom-width: 100px;
+    font-size: 24px;
+    margin-bottom: 20px;
+    /* text-transform: uppercase; */
+    border-bottom: 1px solid #ff5900; /* Underline effect */
+    padding-bottom: 15px;
+    /* background-color: red; */
+  }
+  
+  /* Text */
+  .footer__header p {
+    font-size: 15px;
+    margin: 10px 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .footer__icon {
+    display: flex;
+    gap: 25px; /* Space between social media icons */
+  }
+  
+  .footer__icon a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px; /* Icon size */
+    transition: color 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .footer__icon a:hover {
+    color: #00acee; /* Change color on hover (e.g., Twitter blue) */
+  }
+
+  /* List styling */
+  .footer__header ul {
+    /* list-style: none; */
+    padding: 0;
+    
+  }
+  
+  .footer__header ul li {
+    margin: 8px 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+  }
+  
+  .footer__header ul li a {
+    color: #aaa; /* Link color */
+    text-decoration: none;
+    
+  }
+  
+  .footer__header ul li a:hover {
+    color: #fff; /* Change color on hover */
+    text-decoration: underline; /* Underline effect */
+  }
+  .copyright{
+    color: #aaa;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    text-align: center;
+  }

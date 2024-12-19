@@ -9,11 +9,13 @@
     padding-left: 40px;
     padding-right: 80px;
     gap: 70px;
+    
 }
 .rounded__image {
     /* width: 300px; Adjust width */
     /* height: auto; Maintain aspect ratio */
     border-radius: 40px; /* Round edges */
+    
 }
 .about__text h1{
     font-family: Arial, Helvetica, sans-serif;
