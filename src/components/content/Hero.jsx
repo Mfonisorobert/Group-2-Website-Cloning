@@ -10,7 +10,8 @@ const Hero = () => {
       <h1>Better Way to Achieve Success</h1>
       <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur <br/>officia nemo ducimus voluptas.</h4>
       <div className="button__container">
-      <button className="btn1">Services</button>
+      {/* <button className="btn1">Services</button> */}
+        <button className='text-xs text-blue-200 bg-red-500 rounded-lg hover:bg-white hover:text-orange-700 transition-all ease-in-out 500 text-color' >Services</button>
       <button className="btn2 btn-secondary">About Us</button>
     </div>
       </div>
