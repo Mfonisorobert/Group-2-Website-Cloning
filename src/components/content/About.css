@@ -12,8 +12,9 @@
     
 }
 .rounded__image {
-    /* width: 300px; Adjust width */
-    /* height: auto; Maintain aspect ratio */
+    width: 500px; 
+    height: auto; 
+    /* Maintain aspect ratio */
     border-radius: 40px; /* Round edges */
     
 }
