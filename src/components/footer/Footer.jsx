@@ -62,7 +62,7 @@ const Footer = () => {
   </div>
       </div>
       <div className='copyright'>
-        <p>&copy; Copyright 2024 PoraTech Cohort 4.0 SEFE - Group 2</p>
+        <p>&copy; Copyright 2024 Mfoniso Robert</p>
       </div>
       </div>
       
