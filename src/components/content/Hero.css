@@ -149,7 +149,7 @@
     }
 }
 
-@media (max-width: 480px) {
+@media (min-width: 480px) {
     .hero__text {
         padding: 100px 20px;
         font-size: 12px;
