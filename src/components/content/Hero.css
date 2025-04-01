@@ -108,7 +108,7 @@
 }
 
 /* Responsive Styles */
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     .hero {
         height: 50vh;
         background-position: top;
@@ -149,7 +149,7 @@
     }
 }
 
-@media (min-width: 480px) {
+@media (max-width: 480px) {
     .hero__text {
         padding: 100px 20px;
         font-size: 12px;
