@@ -100,7 +100,7 @@ transition: 0.5s;
     }
 
     .hamburger {
-        display: block;
+        display:contents;
     }
 
     .srch {
