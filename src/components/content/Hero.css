@@ -108,7 +108,7 @@
 }
 
 /* Responsive Styles */
-@media (max-width: 768px) {
+@media (min-width: 768px) {
     .hero {
         height: 50vh;
         background-position: top;
