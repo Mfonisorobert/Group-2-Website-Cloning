@@ -150,11 +150,7 @@
 }
 
 @media (max-width: 480px) {
-    .hero {
-        height: 60vh;
-        background-position: center;
-        background-size: contain;
-    }
+    
     .hero__text {
         padding: 100px 20px;
         font-size: 12px;
