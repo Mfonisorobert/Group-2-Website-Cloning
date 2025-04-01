@@ -8,7 +8,7 @@ const Hero = () => {
       <div className='hero__text'>
       <h3>Business Strategy and Planning</h3>
       <h1>Better Way to Achieve Success</h1>
-      <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur <br/>officia nemo ducimus voluptas.</h4>
+      <h4 className='lorem'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur officia nemo ducimus voluptas.</h4>
       <div className="button__container">
       <button className="btn1">Services</button>
         {/* <button className='text-xs text-blue-200 bg-red-500 rounded-lg hover:bg-white hover:text-orange-700 transition-all ease-in-out 500 text-color' >Services</button> */}
