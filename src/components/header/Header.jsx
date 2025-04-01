@@ -1,6 +1,8 @@
-import React from 'react'
+// import React from 'react'
 import './Header.css'
 import Logo from '../../assets/Logo.png'
+// The must be import before Hambuger menu can work
+import React, { useState } from 'react';
 
 const Header = () => {
 
