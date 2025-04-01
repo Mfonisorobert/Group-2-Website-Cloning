@@ -81,7 +81,7 @@ transition: 0.5s;
 
     .header__ul {
         position: absolute;
-        top: 2vh;
+        top: 24vh;
         left: 0;
         width: 100%;
         background-color: #ffffff;
