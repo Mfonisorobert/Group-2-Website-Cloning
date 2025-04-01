@@ -151,7 +151,7 @@
 
 @media (max-width: 480px) {
     .hero {
-        height: 50vh;
+        height: 60vh;
         background-position: center;
         background-size: contain;
     }
