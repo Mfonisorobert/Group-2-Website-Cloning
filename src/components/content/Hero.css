@@ -22,20 +22,18 @@
     font-size:15px;
     
 }
-.lorem{
-    width:50%
-}
+
 .hero__text h3{
     letter-spacing: 2px;
     font-size:20px;
     padding-bottom: 10px;
-    background-color: #ff5900;
-    width:50%
 }
 .hero__text h4{
     font-size:17px;
     padding-top: 10px;
     font-weight: 300;
+    background-color: #ff5900;
+    width: 50%;
 }
 .button__container {
     display: flex;
@@ -128,6 +126,7 @@
 
     .hero__text h4 {
         font-size: 28px;
+        width: 100%;
     }
     .lorem{
     font-size: 28px;
@@ -164,6 +163,7 @@
 
     .hero__text h4 {
         font-size: 13px;
+        width:100%
     }
 
     .btn1, .btn2, .btn3 {
