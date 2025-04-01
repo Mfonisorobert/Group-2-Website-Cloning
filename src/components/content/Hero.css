@@ -32,7 +32,6 @@
     font-size:17px;
     padding-top: 10px;
     font-weight: 300;
-    background-color: #ff5900;
     width: 50%;
 }
 .button__container {
@@ -126,7 +125,7 @@
 
     .hero__text h4 {
         font-size: 28px;
-        width: 100%;
+        width: 70%;
     }
     .lorem{
     font-size: 28px;
