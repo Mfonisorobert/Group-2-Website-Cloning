@@ -110,6 +110,11 @@
 
 /* Responsive Styles */
 @media (max-width: 768px) {
+    .hero {
+        height: 70vh;
+        background-position: top;
+        background-size: cover;
+    }
     .hero__text {
         padding: 150px 30px;
         font-size: 14px;
