@@ -125,7 +125,7 @@
 
     .hero__text h4 {
         font-size: 28px;
-        width: 70%;
+        width: 100%;
     }
     .lorem{
     font-size: 28px;
@@ -157,12 +157,13 @@
 
     .hero__text h3 {
         font-size: 14px;
-        width:50%
+        width:50%;
+        font-weight: 300;
     }
 
     .hero__text h4 {
         font-size: 13px;
-        width:100%
+        width:70%
     }
 
     .btn1, .btn2, .btn3 {
