@@ -104,3 +104,57 @@
     background-color: #ffffff;
     color: #ff5900;
 }
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .hero__text {
+        padding: 150px 30px;
+        font-size: 14px;
+    }
+
+    .hero__text h3 {
+        font-size: 18px;
+    }
+
+    .hero__text h4 {
+        font-size: 15px;
+    }
+
+    .button__container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .btn1, .btn2, .btn3 {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .hero__support {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+        font-size: 12px;
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero__text {
+        padding: 100px 20px;
+        font-size: 12px;
+    }
+
+    .hero__text h3 {
+        font-size: 16px;
+    }
+
+    .hero__text h4 {
+        font-size: 13px;
+    }
+
+    .btn1, .btn2, .btn3 {
+        padding: 10px 15px;
+        font-size: 12px;
+    }
+}
